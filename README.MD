@@ -72,7 +72,7 @@ To run in R Studio, open the script and make sure to click "Source" at the top
 right, which will run/source the entire script. (As opposed to "Run" which just 
 runs the particular chunk which the cursor is currently highlighting.)
 
-![Run in R Studio](https://github.com/druimalban/OULAD-exploration/blob/master/doc/run-script.png)
+![Run in R Studio](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/run-script.png)
 
 The script should take about twenty minutes to run, which is much faster than 
 the script on which it is based. 
@@ -91,11 +91,11 @@ It is most straightforward to run the Shiny app in R Studio. After collating the
 data as above, open `visualisation/app.R` in R Studio and click "Run App" at the
 top right of the main viewport. 
 
-![Run Shiny app](https://github.com/druimalban/OULAD-exploration/blob/master/doc/run-app.png)
+![Run Shiny app](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/run-app.png)
 
 ## Time series
 
-![Default view](https://github.com/druimalban/OULAD-exploration/blob/master/doc/default-view.png)
+![Default view](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/default-view.png)
 
 In the first mode, clicks by day extend to prior to the module start, 
 i.e. there are negative days, as recorded in the VLE data. In contrast, the time
@@ -105,13 +105,13 @@ all clicks prior to the module start.
 There are several options. The first option lets one select a presentation, the
 second option lets one select a module. 
 
-![Select presentation](https://github.com/druimalban/OULAD-exploration/blob/master/doc/select-presentation.png)
+![Select presentation](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/select-presentation.png)
 
 In contrast, the third option behaves differently, and allows selection of 
 multiple activities/sites at once. You can type the name of an activity or 
 select from the list.
 
-![Select activity](https://github.com/druimalban/OULAD-exploration/blob/master/doc/select-activity.png)
+![Select activity](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/select-activity.png)
 
 The fourth option lets one select how the time series aggregates clicks across 
 multiple students in a given module/presentation. 
@@ -124,7 +124,7 @@ show up as expected. The checkbox is not selected by default because when
 plotting a number of activities on the same chart, there is significant 
 cross-over between the ranges.
 
-![Show population distribution](https://github.com/druimalban/OULAD-exploration/blob/master/doc/show-population.png)
+![Show population distribution](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/show-population.png)
 
 The fifth option selects the time series, whether by week or by day.
 The default for both time series is to include data about the first 12 weeks, 
@@ -134,8 +134,8 @@ data is available for the first three assignments by week 12.
 Indeed, data about the first assignment is available by week 4, and data about 
 the second assignment is available by week 7.
 
-![Show day](https://github.com/druimalban/OULAD-exploration/blob/master/doc/show-day.png)
-![Vary time series](https://github.com/druimalban/OULAD-exploration/blob/master/doc/vary-time-series.png)
+![Show day](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/show-day.png)
+![Vary time series](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/vary-time-series.png)
 
 When making predictions about student performance, it is generally agreed that
 making predictions as early as possible makes any intervention on behalf of the
@@ -162,10 +162,10 @@ The following types of charts are shown in this view:
   - Associations between a categorical outcome and a continuous predictor, or a continuous outcome and a categorical predictor, are shown as box plots.
   - Associations between a continuous outcome and a continuous predictor are shown as scatter-plots.
   
-![Categorical outcome/predictor](https://github.com/druimalban/OULAD-exploration/blob/master/doc/categorical-outcome-categorical-predictor.png)
-![Categorical outcome/continous predictor](https://github.com/druimalban/OULAD-exploration/blob/master/doc/categorical-outcome-continuous-predictor.png)
-![Continuous outcome/categorical predictor](https://github.com/druimalban/OULAD-exploration/blob/master/doc/continuous-outcome-categorical-predictor.png)
-![Continous outcome/continous predictor](https://github.com/druimalban/OULAD-exploration/blob/master/doc/continuous-outcome-continuous-predictor.png)
+![Categorical outcome/predictor](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/categorical-outcome-categorical-predictor.png)
+![Categorical outcome/continous predictor](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/categorical-outcome-continuous-predictor.png)
+![Continuous outcome/categorical predictor](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/continuous-outcome-categorical-predictor.png)
+![Continous outcome/continous predictor](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/continuous-outcome-continuous-predictor.png)
 
 ## Interactive plots
 
@@ -175,5 +175,5 @@ as one can hover over specific points with the mouse to show more information.
 Plotly also supports zooming into specific parts of a chart and moving the 
 current view around.
 
-![Plotly interactive (clicks)](https://github.com/druimalban/OULAD-exploration/blob/master/doc/plotly-interactive-clicks.png)
-![Plotly interactive (outcomes)](https://github.com/druimalban/OULAD-exploration/blob/master/doc/plotly-interactive-outcomes.png)
+![Plotly interactive (clicks)](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/plotly-interactive-clicks.png)
+![Plotly interactive (outcomes)](https://github.com/druimalban/OULAD-exploration/blob/smile/doc/plotly-interactive-outcomes.png)
