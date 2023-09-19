@@ -381,7 +381,8 @@ server <- function(input, output, session) {
             if (isCatPred (input$selectPredictor) && isCatOut (input$selectOutcome)) {
                 p = ggplot (data = studentInfoWeeklyR ()) +
                     geom_mosaic (mapping = aes (x = product (!!sym (input$selectPredictor)), fill = !!(sym (input$selectOutcome)))) +
-                    theme (axis.text.x = element_text (angle = 45, hjust = 1))
+                    theme (axis.text.x = element_text (angle = 45, hjust = 1)
+                         , legend.position = "none")
                 ggplotly (p) %>% layout (font = list (family = "Arial")
                                        , xaxis = list (title = lookupVars (input$selectPredictor))
                                        , yaxis = list (title = lookupVars (input$selectOutcome)))
